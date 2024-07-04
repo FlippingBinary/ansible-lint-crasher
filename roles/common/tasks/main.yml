@@ -1,0 +1,9 @@
+---
+- name: Say foo
+  ansible.builtin.debug:
+    msg: "Foo"
+
+---
+- name: Say bar
+  ansible.builtin.debug:
+    msg: "Bar"
